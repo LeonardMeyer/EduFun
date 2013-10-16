@@ -12,3 +12,25 @@ Projecteur NEC
 Kinect for Windows
 Plaque de verre
 Papier calque
+
+Principe
+======
+
+La plus grande force d’EduFun est sans doute de pouvoir intégrer des jeux d’autres développeurs. Cela permet un ajout 
+plus simple des jeux tant qu’ils se conforment au modèle EduFun. Cette intégration est prise en charge par le Microsoft
+Extensibility Framework, qui nous permet de découvrir des jeux au runtime. MEF n’est pas qu’un simple framework d’ IoC 
+(Inversion de contrôle) bien qu’il propose des fonctionnalités similaires comme l’injection de dépendance (comme le fait
+aussi StuctureMap ou Unity). MEF met surtout en évidence la découverte de composant et permet à une application de se 
+composer par elle-même et cela à l’exécution. Le développeur devra donc implémenter une interface avec ses méthodes pour
+faire en sorte de communiquer avec EduFun. De plus il est important que votre jeu réponde aux évènements Touch WPF de 
+Windows car EduFun utilise sa propre bibliothèque Kinect. Cette dernière détecte les points de pressions sur la table en 
+utilisant la profondeur afin lancer des évènements qui lanceront eux même les Touch WPF. Cela permet au développeur de ne 
+pas se soucier de nos évènements.
+
+La première chose à faire lors de la création d’un jeu EduFun est de créer une classe « module » qui fera le pont entre 
+votre application et EduFun. Pour se faire il est vital de créer en premier lieu une fenêtre qui contiendra votre jeu à 
+proprement parler. L’interface graphique de votre jeu  sera en fait réalisée en tant que UserControl. La fenêtre quant à 
+elle contiendra donc votre UserControl et proposera une méthode permettant de le retourner en tant qu’UIElement. Une fois 
+cette première étape faite il faut créer la classe « module ». Cette dernière implémentera l’interface IGame fourni par 
+l’API EduFun. Étant donné que nous utilisons MEF, il est nécessaire d’annoter cette classe avec un attribut 
+[Export(typeof(IGame))] qui nous permettra ainsi d’importer votre jeu au sein d’EduFun.
