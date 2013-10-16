@@ -1,0 +1,2 @@
+C:\Users\Administrateur\Desktop\Nouveau dossier\EduFun.Games.GameTest\bin\Debug\EduFun.Games.GameTest.exe.config
+C:\Users\Administrateur\Desktop\Nouveau dossier\EduFun.Games.GameTest\obj\Debug\EduFun.Games.GameTest.csproj.ResolveComReference.cache

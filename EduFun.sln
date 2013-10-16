@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Games.GameTest", "EduFun.Games.GameTest\EduFun.Games.GameTest.csproj", "{BB9AFD85-0817-41DF-8804-5AD94693A7F7}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject3", "ModelingProject3\ModelingProject3.modelproj", "{EBF18EC1-4F39-4B9A-907B-C5E9D4123346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Kinect.Callibration", "EduFun.Kinect.Callibration\EduFun.Kinect.Callibration.csproj", "{58494D97-EF70-46E9-9F41-C239CD09CDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallibrationWindow", "CallibrationWindow\CallibrationWindow.csproj", "{6D9B501D-4662-49B2-8C5D-6FE2C048C75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Kinect", "Library\Kinect\Library.Kinect.csproj", "{E440708B-C948-45D8-8319-322983394951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Library.Resources", "Library\Resources\EduFun.Library.Resources.csproj", "{54456860-78F4-472C-8730-7FA2B250CEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Library.Resources.Classes", "Library\Resources\Classes\EduFun.Library.Resources.Classes.csproj", "{49577E6B-AAFE-41F4-8056-7AB0DA9E6CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Games", "Games\EduFun.Games.csproj", "{0696B126-223A-45F7-8B91-763008C9A406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Library\Controls\Controls.csproj", "{0604736B-B463-4FAA-B478-4B3F97007558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduFun.Welcome", "EduFun.Accueil\EduFun.Welcome.csproj", "{E5E34599-BB6F-44B6-A062-20F223471777}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://109.237.250.134:8082/tfs/projet%20fil%20rouge
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EduFun.Games.GameTest\\EduFun.Games.GameTest.csproj
+		SccProjectName1 = EduFun.Games.GameTest
+		SccLocalPath1 = EduFun.Games.GameTest
+		SccProjectUniqueName2 = ModelingProject3\\ModelingProject3.modelproj
+		SccProjectName2 = ModelingProject3
+		SccLocalPath2 = ModelingProject3
+		SccProjectUniqueName3 = EduFun.Kinect.Callibration\\EduFun.Kinect.Callibration.csproj
+		SccProjectName3 = EduFun.Kinect.Callibration
+		SccLocalPath3 = EduFun.Kinect.Callibration
+		SccProjectUniqueName4 = CallibrationWindow\\CallibrationWindow.csproj
+		SccProjectName4 = CallibrationWindow
+		SccLocalPath4 = CallibrationWindow
+		SccProjectUniqueName5 = Library\\Kinect\\Library.Kinect.csproj
+		SccProjectName5 = Library/Kinect
+		SccLocalPath5 = Library\\Kinect
+		SccProjectUniqueName6 = Library\\Resources\\EduFun.Library.Resources.csproj
+		SccProjectName6 = Library/Resources
+		SccLocalPath6 = Library\\Resources
+		SccProjectUniqueName7 = Library\\Resources\\Classes\\EduFun.Library.Resources.Classes.csproj
+		SccProjectName7 = Library/Resources/Classes
+		SccLocalPath7 = Library\\Resources\\Classes
+		SccProjectUniqueName8 = Games\\EduFun.Games.csproj
+		SccProjectName8 = Games
+		SccLocalPath8 = Games
+		SccProjectUniqueName9 = Library\\Controls\\Controls.csproj
+		SccProjectName9 = Library/Controls
+		SccLocalPath9 = Library\\Controls
+		SccProjectUniqueName10 = EduFun.Accueil\\EduFun.Welcome.csproj
+		SccProjectName10 = EduFun.Accueil
+		SccLocalPath10 = EduFun.Accueil
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9AFD85-0817-41DF-8804-5AD94693A7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9AFD85-0817-41DF-8804-5AD94693A7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9AFD85-0817-41DF-8804-5AD94693A7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9AFD85-0817-41DF-8804-5AD94693A7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF18EC1-4F39-4B9A-907B-C5E9D4123346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF18EC1-4F39-4B9A-907B-C5E9D4123346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF18EC1-4F39-4B9A-907B-C5E9D4123346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF18EC1-4F39-4B9A-907B-C5E9D4123346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58494D97-EF70-46E9-9F41-C239CD09CDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58494D97-EF70-46E9-9F41-C239CD09CDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58494D97-EF70-46E9-9F41-C239CD09CDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58494D97-EF70-46E9-9F41-C239CD09CDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9B501D-4662-49B2-8C5D-6FE2C048C75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9B501D-4662-49B2-8C5D-6FE2C048C75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9B501D-4662-49B2-8C5D-6FE2C048C75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9B501D-4662-49B2-8C5D-6FE2C048C75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E440708B-C948-45D8-8319-322983394951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E440708B-C948-45D8-8319-322983394951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E440708B-C948-45D8-8319-322983394951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E440708B-C948-45D8-8319-322983394951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54456860-78F4-472C-8730-7FA2B250CEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54456860-78F4-472C-8730-7FA2B250CEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54456860-78F4-472C-8730-7FA2B250CEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54456860-78F4-472C-8730-7FA2B250CEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49577E6B-AAFE-41F4-8056-7AB0DA9E6CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49577E6B-AAFE-41F4-8056-7AB0DA9E6CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49577E6B-AAFE-41F4-8056-7AB0DA9E6CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49577E6B-AAFE-41F4-8056-7AB0DA9E6CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0696B126-223A-45F7-8B91-763008C9A406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0696B126-223A-45F7-8B91-763008C9A406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0696B126-223A-45F7-8B91-763008C9A406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0696B126-223A-45F7-8B91-763008C9A406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0604736B-B463-4FAA-B478-4B3F97007558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0604736B-B463-4FAA-B478-4B3F97007558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0604736B-B463-4FAA-B478-4B3F97007558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0604736B-B463-4FAA-B478-4B3F97007558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E34599-BB6F-44B6-A062-20F223471777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E34599-BB6F-44B6-A062-20F223471777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E34599-BB6F-44B6-A062-20F223471777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E34599-BB6F-44B6-A062-20F223471777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
